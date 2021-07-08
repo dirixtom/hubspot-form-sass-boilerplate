@@ -1,0 +1,84 @@
+/* Form */
+.hs-form
+    /* fieldsets & wrappers */
+    fieldset
+        .form-columns-1 
+            .hs-form-field
+
+        .form-columns-2 
+            .hs-form-field
+
+        .form-columns-3 
+            .hs-form-field 
+
+    /* Form Field Wrapper */
+    .hs-form-field
+        > label
+
+        /* Multi-select */
+        .inputs-list 
+            li 
+                input 
+
+    /* Descriptions */
+    .hs-field-desc 
+
+    /* Label */
+    label 
+
+    /* Input  */
+    input[type="text"],
+    input[type="password"], 
+    input[type="datetime"], 
+    input[type="datetime-local"], 
+    input[type="date"], 
+    input[type="month"], 
+    input[type="time"], 
+    input[type="week"], 
+    input[type="number"], 
+    input[type="email"], 
+    input[type="url"], 
+    input[type="search"], 
+    input[type="tel"], 
+    input[type="color"],
+    input[type="file"]
+        &:focus
+
+    input[type="radio"] 
+    input[type="checkbox"]
+        &:focus
+        &:checked
+
+    /* Textarea */
+    textarea
+        &:focus 
+
+    /* Select */
+    select
+        &:focus
+
+    /* Required */
+    input:focus:required:invalid, 
+    textarea:focus:required:invalid, 
+    select:focus:required:invalid 
+
+    input:focus:required:invalid:focus, 
+    textarea:focus:required:invalid:focus, 
+    select:focus:required:invalid:focus 
+
+    /* Error message */
+    .hs-error-msgs 
+        label
+
+    /* Submit buttons */
+    .hs-button.primary,
+    input[type="submit"],
+    input[type="button"] 
+        &:hover
+        &:focus
+
+/* Placeholders */
+::-webkit-input-placeholder 
+:-moz-placeholder 
+::-moz-placeholder 
+:-ms-input-placeholder 
