@@ -1,0 +1,33 @@
+{
+  "name": "marketo-progressive-profiling-field-location",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeadFabric-nv/marketo-progressive-profiling-field-location.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeadFabric-nv/marketo-progressive-profiling-field-location/issues"
+  },
+  "homepage": "https://github.com/LeadFabric-nv/marketo-progressive-profiling-field-location#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-cli": "^6.26.0",
+    "browser-sync": "^2.26.14",
+    "cssnano": "^5.0.5",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-terser": "^2.0.1",
+    "normalize": "^0.3.1"
+  }
+}
